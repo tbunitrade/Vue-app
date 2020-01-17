@@ -1,0 +1,159 @@
+/*My custom style*/
+
+.mainNavigation {
+    margin: 0;
+    padding: 0;
+
+    .navbar {
+        position: relative;
+
+        button {
+            /*margin: auto;*/
+            margin: 1em;
+            z-index: 1;
+            position: relative;
+
+            &:before {        
+                width: 45px;
+                height: 45px;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+                background-color: #111111;    
+                position: absolute;
+                left: 50%;
+                top:50%;
+                transform: translate(-50%,-50%);            
+                display: block;
+                content: '';
+                z-index: -1;
+                border-radius: 50%;
+            }
+        }       
+        
+
+        .navbar-toggler-icon {
+            color: $aaa;
+        }
+    }
+}
+
+.profileNavigation {
+    margin: 0;
+    padding: 0;
+
+    .navbar {        
+        float: right;           
+        
+        @media (min-width:$screen-lg-min) {
+            margin-right: 42px;
+        }
+    
+        .menu-item {
+
+            a {
+                position: relative;
+
+                &:before {        
+                    width: 45px;
+                    height: 45px;
+                    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+                    background-color: #111111;    
+                    position: absolute;
+                    left: 50%;
+                    top:50%;
+                    transform: translate(-50%,-50%);            
+                    display: block;
+                    content: '';
+                    z-index: 0;
+                    border-radius: 50%;
+                }
+
+                img {
+                    z-index: 1;
+                    position: relative;
+                    /*top: 4px;*/
+
+                }
+            }        
+        }
+    }
+}
+
+.logo {
+    width: 72px;
+  height: 32px;
+  object-fit: contain;
+  /*background-color: #ffffff;*/
+  margin: auto;
+  display: block;
+
+  @media (min-width:$screen-lg-min) {
+      margin-bottom: 26px;
+  }
+}
+
+.mainTitle {
+
+    h2 {
+        margin: auto;
+        width: 310px;
+        width: 280px;
+        height: 88px;
+        // font-family: Montserrat;
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        // color: #cccccc;
+        color: $ccc;
+
+    }
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+/*Typo*/
+
+//$ccc :      #ccc;
+
+.title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $ccc;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat;  
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $ccc;
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size:24px;
+}
+h4 {
+    font-size: 20px;
+}
+h5,h6 {
+    font-size: 16px;
+}

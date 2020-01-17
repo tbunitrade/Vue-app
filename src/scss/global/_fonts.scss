@@ -1,0 +1,75 @@
+/*fonts css style */
+
+/*---------------------------------------
+   Typography
+-----------------------------------------*/
+
+.row-no-padding [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0
+}
+
+
+
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+p{
+     font-family: 'Montserrat', sans-serif;
+//     font-family: 'PT Sans', sans-serif;
+//     font-size: 16px;
+//     line-height: 16px;
+//     font-weight: 400;
+//     color: $black;
+    
+}
+p{
+     // text-indent: 2em;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf') format('ttf')
+     /*,
+        url('../fonts/PT_Sans/PT_Sans-Web-Regular.woff2') format('woff2'),
+         url('../fonts/PT_Sans/PT_Sans-Web-Regular.woff') format('woff')*/;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+//   @font-face {
+//     font-family: 'PT Sans';
+//     src: url('../fonts/PT_Sans/PT_Sans-Web-Italic.ttf') format('ttf'),
+//          url('../fonts/PT_Sans/PT_Sans-Web-Italic.woff2') format('woff2'),
+//          url('../fonts/PT_Sans/PT_Sans-Web-Italic.woff') format('woff');
+//     font-weight: 400;
+//     font-style: italic;
+//   }
+  
+
+// @font-face {
+//   font-family: 'PT Sans';
+//   src: url('../fonts/PT_Sans/PT_Sans-Web-Bold.ttf') format('ttf'),
+//        url('../fonts/PT_Sans/PT_Sans-Web-Bold.woff2') format('woff2'),
+//        url('../fonts/PT_Sans/PT_Sans-Web-Bold.woff') format('woff');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'PT Sans';
+//     src: url('../fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf') format('ttf'),
+//          url('../fonts/PT_Sans/PT_Sans-Web-BoldItalic.woff2') format('woff2'),
+//          url('../fonts/PT_Sans/PT_Sans-Web-BoldItalic.woff') format('woff');
+//     font-weight: 700;
+//     font-style: italic;
+//   }
+  
