@@ -3,18 +3,13 @@ html {
   font-size: 100%; /* This means 16px */
   padding: 0;
   margin: 0;
-
 }
-
 
 body {  
   font-family: 'Montserrat', sans-serif;
-  color: $ccc; 
-  // position: relative;  
-  // transition: 0.27s;
-  // line-height: 1;  
-   box-sizing: border-box;
-   background: $red;
+  color: $ccc;   
+  box-sizing: border-box;
+  /*background: $red;*/
 }
 
 .wrap {
@@ -27,14 +22,12 @@ body {
   clear: both;
 }
 
-.container-fluid {
-  
+img {
+  width: 100%;
 }
 
-
-
 * {
-  border: 0px solid red;
+  border: 0px solid red!important;
   outline: 0px solid red!important;
 }
 
@@ -45,8 +38,6 @@ a {
     text-decoration: none;
   }
 }
-
-
 
 @media (min-width:$screen-md-min) {
 
