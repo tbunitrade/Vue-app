@@ -126,5 +126,360 @@
             }
         }
     }
+    
+    .Switcher{
+
+        display: flex;
+        width: 100vw;
+        height: 2em;
+        outline: 1px solid;
+
+        div {
+            display: inline-block;
+            vertical-align: middle;
+
+            margin: auto;
+            display: block;
+
+            display: flex;
+            align-content: center;
+        }
+        
+        
+        .plz{
+            width: 35px;
+            height: 20px;
+            font-family: InterV;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #0091ff;   
+        } 
+        .rub{
+            width: 35px;
+            height: 20px;
+            font-family: InterV;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #0091ff;
+        } 
+        .eu{
+            width: 35px;
+            height: 20px;
+            font-family: InterV;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #0091ff;
+        } 
+        .usd{
+            width: 35px;
+            height: 20px;
+            font-family: InterV;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: right;
+            color: #0091ff;
+        }
+        .UAH{
+            width: 35px;
+        height: 20px;
+        font-family: InterV;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #0091ff;
+        }
+    }
+
+    .formAnswer{
+        display: block;
+        width: 100vw;
+
+        .ulContainer {
+            padding: 0;
+            display: block;
+            margin: auto;
+            width: 374px;
+            height: 255px;
+            /*opacity: 0.1;
+            
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+            background-color: #ffffff;*/
+            
+
+            
+
+            .answer {
+                background-image: linear-gradient(to bottom,rgba(255,255,255,.05),rgba(255,255,255,.1));
+                position: relative;
+                display: block;
+                height: 100px;                
+               
+                height: 50px;
+                list-style-type:none;
+
+                &:before {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 5px;
+                    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+                    border: solid 1px $ccc;
+                    background-color: $black;
+                    content: '';
+                    display: block;
+    
+                    transform: translate(-50%,0%);
+
+                    position: absolute;
+                    left: 15px;
+                    top: 17px;
+                }
+                
+                label {
+                    position: absolute;
+
+
+                }
+                
+ 
+                a {
+                    /*width: 89px;*/
+                    /*height: 17px;*/                    
+                }
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                input {
+                    display: inline-block;
+                    border: none;
+                    outline: none;
+                    background: transparent;
+
+                    display: inline-block;
+                    
+                    outline: 0;
+                    background: 0 0;
+                    position: absolute;
+                    right: 11px;
+                    font-size: 16px;
+                    top: 31%;
+                    text-align: right;
+
+                    font-family: InterV;
+                    font-size: 14px;
+                    color:$white;
+                }
+
+                label {
+                
+
+                    bottom: 4px;
+                    width: 98px;
+                    /* height: 0px; */
+                    font-family: InterV;
+                    font-size: 9px;
+                    font-weight: 400;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #1588de;
+                    position: absolute;
+                    border: 1%;
+                    padding: 0;
+                    margin: 0;
+
+                    
+                }
+
+
+                .oldPrice{
+                    width: 58px;
+                    height: 11px;
+                    font-family: InterV;
+                    font-size: 9px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #888888;
+                    position: absolute;
+                    
+                    right: 9%;                                            right: 7%;
+                    top: 15%;
+                    text-decoration: line-through;
+
+                    span{
+                        right: 0%;
+                        top: 15%;
+                        text-decoration: line-through;      
+                        
+                        right: -37%;
+                        top: 1%;
+                        text-decoration: line-through;
+
+
+                    }
+                }
+
+                .currentPrice{
+                    width: 87px;
+                    height: 17px;
+                    font-family: InterV;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                    position: absolute;
+                    top:35%;
+                    right: 0;
+                    padding: 0;
+
+                    span {
+                        font-size: 14px;
+
+                        
+                    }
+                }
+
+                .status {                    
+                    width: 38px;
+                    height: 11px;
+                    font-family: InterV;
+                    font-size: 9px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: right;
+                    color: #6cde15;
+                    position: absolute;
+                    right: 0;
+                    bottom:90px;
+
+                    position: absolute;
+                    right: 7px;
+                    bottom: 2px;
+                 /*   background-image: linear-gradient(to bottom, #002537, #0e0019);                    */
+                }
+
+                span {
+                    // width: 58px;
+                    // height: 11px;
+                    font-family: InterV;
+                    font-size: 9px;
+                    font-weight: 400;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;                    
+                    color: #888;                    
+                }
+
+                form {
+                    span{
+                        position: absolute;
+                        right: 0;;
+                    }
+                }
+
+                
+            }/*answer*/
+
+            a {
+                position: absolute;
+                left: 8%;
+                top: 35%;
+                width: 70%;
+                font-family: InterV;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #cccccc;
+
+                position: absolute;
+                padding-left: 9%;
+                left: 0%;
+                top: 35%;
+            }
+
+            li {
+                
+
+                &:first-child,
+                {
+                    border-radius: 15px 15px 0  0;
+                }
+                &:last-child {
+                    border-radius:0 0 15px 15px 
+                }
+            }
+
+            .domainBusy {
+                
+                input,
+                a {
+                    color: red; 
+                }
+                &:before {
+                    background: red;
+                }
+                
+            }
+        }/****/
+
+        .busy{
+
+            a {
+                color: red!important
+            }
+
+            &:before {
+                background-color: red!important;
+                outline: none!important;
+                border:none!important;
+                cursor: none!important;
+            }
+
+            input{
+                color: red!important
+            }
+        }
+    }
 }
 
