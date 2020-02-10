@@ -1,0 +1,2 @@
+$(document).ready(function(){console.log("init"),$(".domainUl li a").click(function(e){e.preventDefault(),1==$(this).hasClass("selected")?(console.log("click 1 "),$(this).removeClass("selected")):(console.log("click 2 "),$(this).addClass("selected"))}),$(".ulContainer .answer a").click(function(e){e.preventDefault(),1==$(this).hasClass("selected")?(console.log("click 1 "),$(this).removeClass("selected")):(console.log("click 2 "),$(this).addClass("selected"))})});
+//# sourceMappingURL=dist.js.map

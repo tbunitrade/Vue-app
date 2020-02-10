@@ -192,3 +192,20 @@ h4 {
 h5,h6 {
     font-size: 16px;
 }
+
+
+.selected {
+
+    &::before
+    {
+    /*rectangle.svg;*/
+    /*background-image: ('public/img/svg/rectangle.svg')!important;*/
+    //http://vue-app/public/img/svg/rectangle.svg;
+    background:('http://vue-app/public/img/svg/rectangle.svg')!important;
+     background: url(../../public/img/svg/rectangle.svg);
+     background-repeat: no-repeat;
+    width: 15px;
+    height: 12px;
+    }
+    
+}
